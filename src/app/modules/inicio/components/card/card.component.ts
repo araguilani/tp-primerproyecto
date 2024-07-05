@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-// IMPORTAMOS INTERFAZ
+// importamos interfaz
 import { Animal } from 'src/app/models/animal';
 
 @Component({
@@ -8,7 +8,7 @@ import { Animal } from 'src/app/models/animal';
   styleUrls: ['./card.component.css']
 })
 export class CardComponent {
-  // PROPIEDAD PÚBLICA (TIPO ARRAY)
+  // propiedad publica (TIPO ARRAY)
   public info: Animal[];
 
   constructor(){

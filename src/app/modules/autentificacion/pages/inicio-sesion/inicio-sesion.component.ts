@@ -14,9 +14,9 @@ export class InicioSesionComponent {
   hide = true;
 
   /* ####################################### LOCAL
-  // Definimos la propiedad local para que guarde la colección
+  // definimos la propiedad local para que guarde la colección
 
-  // COLECCIÓN LOCAL DE usuarioIngresado CON INFORMACIÓN
+  // coleccion local de usuarioIngresado con informacion
   public coleccionusuarioIngresadoLocal: Usuario[];
   
   constructor(){
@@ -47,7 +47,7 @@ export class InicioSesionComponent {
       }
     ]
   }*/
-  // ####################################### FIN LOCAL
+  // ########################## fin local
 
   constructor(
     public servicioAuth: AuthService,
@@ -162,7 +162,7 @@ export class InicioSesionComponent {
     }
   }
 
-  // función para vaciar el formulari
+  // función para vaciar el formulario
   limpiarInputs() {
     const inputs = {
       email: this.usuarioIngresado.email = '',
